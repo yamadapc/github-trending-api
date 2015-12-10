@@ -1,4 +1,4 @@
-FROM node:5.1.0
+FROM node:5
 
 ADD . /github-trending-api
 WORKDIR /github-trending-api

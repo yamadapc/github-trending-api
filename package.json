@@ -1,0 +1,44 @@
+{
+  "name": "github-trending-api",
+  "version": "1.0.0",
+  "description": "API for GitHub trending repositories",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha -t 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/beijaflor-io/github-trending-api.git"
+  },
+  "keywords": [
+    "github",
+    "trending",
+    "api",
+    "express",
+    "rest",
+    "repositories",
+    "social"
+  ],
+  "author": "Pedro Tacla Yamada",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/beijaflor-io/github-trending-api/issues"
+  },
+  "homepage": "https://github.com/beijaflor-io/github-trending-api#readme",
+  "dependencies": {
+    "bluebird": "^3.0.6",
+    "bunyan": "^1.5.1",
+    "express": "^4.13.3",
+    "express-bunyan-logger": "^1.2.0",
+    "express-promise": "^0.4.0",
+    "github-trending": "^1.3.1",
+    "ttl-cache": "^1.0.2"
+  },
+  "devDependencies": {
+    "mocha": "^2.3.4",
+    "mocha-make-stub": "^2.3.2",
+    "nock": "^3.4.0",
+    "should": "^8.0.0",
+    "supertest": "^1.1.0"
+  }
+}

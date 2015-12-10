@@ -25,7 +25,10 @@ _A write-up on its stack is pending._
 This repository has automated image builds on hub.docker.com. So you can also
 run:
 ```
+$ docker-machine start default
+$ eval $(docker-machine env default)
 $ docker run -it -p 3000:3000 yamadapc/github-trending-api
+$ curl `docker-machine ip default`:3000/repositories
 ```
 
 ## Endpoints

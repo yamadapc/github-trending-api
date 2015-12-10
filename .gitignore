@@ -38,3 +38,4 @@ node_modules
 .node_repl_history
 
 lcov
+coverage.html

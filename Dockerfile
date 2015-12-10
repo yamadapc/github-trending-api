@@ -4,4 +4,4 @@ ADD . /github-trending-api
 WORKDIR /github-trending-api
 RUN npm install --production
 
-CMD github-trending-api
+CMD ./bin/github-trending-api

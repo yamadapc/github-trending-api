@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/beijaflor-io/github-trending-api.git"
+    "url": "git+ssh://git@github.com/yamadapc/github-trending-api.git"
   },
   "keywords": [
     "github",

@@ -37,11 +37,11 @@
     "ttl-cache": "^1.0.2"
   },
   "devDependencies": {
-    "blanket": "1.1.10",
+    "blanket": "^1.2.1",
     "coveralls": "^2.11.4",
-    "mocha": "2.2.*",
+    "mocha": "^2.1.0",
     "mocha-make-stub": "^2.3.2",
-    "mocha-spec-cov-alt": "^0.3.0",
+    "mocha-spec-cov-alt": "^1.0.1",
     "nock": "^3.4.0",
     "should": "^8.0.0",
     "supertest": "^1.1.0"

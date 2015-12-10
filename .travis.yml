@@ -15,6 +15,7 @@ env:
     - COMMIT=${TRAVIS_COMMIT::8}
 
 after_success:
+  echo "$TRAVIS_NODE_VERSION"
   if [ "$TRAVIS_BRANCH" == "master" ] &&
      [ "$TRAVIS_PULL_REQUEST" == "false" ] &&
      [ "$TRAVIS_NODE_VERSION" == "5.2.0" ]; then

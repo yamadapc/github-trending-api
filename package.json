@@ -2,7 +2,8 @@
   "name": "github-trending-api",
   "version": "1.0.0",
   "description": "API for GitHub trending repositories",
-  "main": "app.js",
+  "bin": "bin/github-trending-api",
+  "main": "routes/trending.js",
   "scripts": {
     "test": "mocha -t 0"
   },

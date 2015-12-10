@@ -1,5 +1,6 @@
-var log = require('./config/logger');
-var trendingApi = require('./routes/trending');
+#!/usr/bin/env node
+var log = require('../config/logger');
+var trendingApi = require('..');
 
 var PORT = process.env.PORT || 3000;
 

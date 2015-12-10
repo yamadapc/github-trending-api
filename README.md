@@ -1,4 +1,6 @@
 # github-trending-api
+[![Build Status](https://travis-ci.org/yamadapc/github-trending-api.svg?branch=master)](https://travis-ci.org/yamadapc/github-trending-api)
+- - -
 This module is an API for the `github-trending` NPM module. So it can be ran as
 an "ultra-micro-service". It has an in-memory cache for results; so _mostly_ you
 can use it from another point of the application and not worry about anything

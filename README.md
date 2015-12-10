@@ -1,5 +1,8 @@
 # github-trending-api
 [![Build Status](https://travis-ci.org/yamadapc/github-trending-api.svg?branch=master)](https://travis-ci.org/yamadapc/github-trending-api)
+[![Docker Image Size](https://img.shields.io/imagelayers/image-size/yamadapc/github-trending-api/latest.svg)](https://hub.docker.com/r/yamadapc/github-trending-api/)
+[![Docker Image Pulls](https://img.shields.io/docker/pulls/yamadapc/github-trending-api.svg)](https://hub.docker.com/r/yamadapc/github-trending-api/)
+
 - - -
 This module is an API for the `github-trending` NPM module. So it can be ran as
 an "ultra-micro-service". It has an in-memory cache for results; so _mostly_ you

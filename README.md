@@ -2,6 +2,7 @@
 [![Build Status](https://travis-ci.org/yamadapc/github-trending-api.svg?branch=master)](https://travis-ci.org/yamadapc/github-trending-api)
 [![Docker Image Size](https://img.shields.io/imagelayers/image-size/yamadapc/github-trending-api/latest.svg)](https://hub.docker.com/r/yamadapc/github-trending-api/)
 [![Docker Image Pulls](https://img.shields.io/docker/pulls/yamadapc/github-trending-api.svg)](https://hub.docker.com/r/yamadapc/github-trending-api/)
+[![Coverage Status](https://coveralls.io/repos/yamadapc/github-trending-api/badge.svg?branch=master&service=github)](https://coveralls.io/github/yamadapc/github-trending-api?branch=master)
 
 - - -
 This module is an API for the `github-trending` NPM module. So it can be ran as

@@ -10,3 +10,5 @@ node_js:
 - '4.1'
 - '0.12'
 - '0.10'
+
+after_script: "cat lcov | ./node_modules/coveralls/bin/coveralls.js"

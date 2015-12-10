@@ -21,6 +21,13 @@ returns.
 
 _A write-up on its stack is pending._
 
+## Docker
+This repository has automated image builds on hub.docker.com. So you can also
+run:
+```
+$ docker run -it -p 3000:3000 yamadapc/github-trending-api
+```
+
 ## Endpoints
 ### `GET /repositories`
 Responds with a list of trending repositories; accepts an optional `language`

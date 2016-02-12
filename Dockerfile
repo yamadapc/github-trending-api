@@ -1,4 +1,4 @@
-FROM node:5
+FROM mhart/alpine-node:5
 
 ADD . /github-trending-api
 WORKDIR /github-trending-api
